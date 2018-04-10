@@ -9,7 +9,7 @@ public class PrivateKey{
 	
 	PrivateKey(){
 		try{
-			String aa = readFile("c:\\zzz\\PrivateKey.txt");
+			String aa = readFile("d:\\src_code\\PrivateKey.txt");
 			accessKey = aa.substring(0, 20);
 			secretKey = aa.substring(22);
 			System.out.println(accessKey);
